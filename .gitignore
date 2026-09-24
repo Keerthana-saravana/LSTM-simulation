@@ -1,11 +1,13 @@
 # =========================
-# Python
+# Python cache
 # =========================
 __pycache__/
 *.py[cod]
 *.pyo
 
+# =========================
 # Virtual environment
+# =========================
 venv/
 .venv/
 env/
@@ -28,19 +30,17 @@ env/
 Thumbs.db
 
 # =========================
-# Generated results
+# Temporary / generated arrays
+# =========================
+*.npy
+
+# =========================
+# Temporary result folders
 # =========================
 results/
 
 # =========================
-# Large generated ML files
+# Keep these files in Git
 # =========================
-*.keras
-*.h5
-*.hdf5
-*.npy
-
-# =========================
-# Generated prediction/output files
-# =========================
-prediction_results.csv
+# *.keras       <-- DO NOT IGNORE
+# *.pkl         <-- DO NOT IGNORE
