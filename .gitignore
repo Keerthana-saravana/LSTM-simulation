@@ -1,0 +1,46 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+*.code-workspace
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Generated results
+# =========================
+results/
+
+# =========================
+# Large generated ML files
+# =========================
+*.keras
+*.h5
+*.hdf5
+*.npy
+
+# =========================
+# Generated prediction/output files
+# =========================
+prediction_results.csv
